@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:745px;
+    width:100%;
+    /*background-color: aquamarine;*/
+    display:flex;
+    justify-content:center;
+}
+.Left_container{
+    height:745px;
+    width:30%;
+    background-color:black;
+}
+.block1{
+    margin-top:50%;
+    padding:10px 10px;
+}
+.heading{
+    text-align:center;
+    color:beige;
+}
+.para{
+    text-align:center;
+    color:beige;
+}
+.Signin_btn{
+   height:50px;
+   width:200px;
+   font-size:17px;
+   border-radius: 20px;
+   border:2px solid white;
+   background: none;
+   display:block;
+   margin:auto;
+   color:white;
+
+}
+
+.Right_container{
+    height:745px;
+    width:70%;
+    background-color:wheat;
+}
+.block2{
+    height:2334px;
+    width:100%;
+}
+.head2{
+   margin-top:7%;
+   text-align: center;
+   color:black;
+   font-size:35px;
+   padding-top:20px;
+}
+.fimg{
+    height:40px;
+    width:40px;
+}
+.img{
+    height:50px;
+    width:200px;
+    border-radius:20px;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.para2{
+    text-align:center;
+    color:black;
+    font-size: 17px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.Name{
+    height: 50px;
+    width: 45%;
+    margin: 10px auto;
+    border-radius: 15px;
+    border-color: black;
+}
+.Name::placeholder{
+    padding-left: 30px;
+    color: black;
+    font-size: 17px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    height: 48px;
+    width: 130px;
+    border-radius: 10px;
+    
+    
+    
+}
